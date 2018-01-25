@@ -1,0 +1,114 @@
+apiVersion: v1
+entries:
+  jupyter:
+  - created: 2018-01-24T09:03:18.11703885Z
+    description: Chart for Jupyter Notebook with Tensorflow support.
+    digest: 1fca824102b03371bb1458432b0ff60a86253040f8549bf9f34b1eaad85cb907
+    engine: gotpl
+    home: http://jupyter.org/
+    keywords:
+    - jupyter
+    - notebook
+    - ipython
+    - python
+    maintainers:
+    - email: dingmeng@gmail.com
+      name: Meng Ding
+    name: jupyter
+    urls:
+    - http://127.0.0.1:8879/jupyter-1.0.0.tgz
+    version: 1.0.0
+  mnist-demo:
+  - apiVersion: v1
+    created: 2018-01-24T09:03:18.134812674Z
+    description: A Helm chart for Kubernetes
+    digest: 3f9d2fa64453738825d8dead103845ed09bb9b34fb47da7b629f90d6233db832
+    name: mnist-demo
+    urls:
+    - http://127.0.0.1:8879/mnist-demo-0.1.0.tgz
+    version: 0.1.0
+  tensorflow:
+  - created: 2018-01-24T09:03:18.137469396Z
+    description: Chart for tensorflow with pv support
+    digest: bed87a831975fa987ddaf752e679fba3bacd288bae809b969f74c61159c672d3
+    keywords:
+    - tensorflow
+    maintainers:
+    - email: zhangwei@chinaskycloud.com
+      name: Zhang Wei
+    name: tensorflow
+    sources:
+    - https://github.com/tensorflow/tensorflow
+    urls:
+    - http://127.0.0.1:8879/tensorflow-1.0.0.tgz
+    version: 1.0.0
+  tensorflow-serving:
+  - created: 2018-01-24T09:03:18.148165537Z
+    description: Chart for tensorflow serving with pv support
+    digest: 3cadb8417107880cc47b30f07a0c8bbaaf6e7c89e6cc0c311038895d7c9df0cd
+    keywords:
+    - tensorflow-serving
+    maintainers:
+    - email: zhangwei@chinaskycloud.com
+      name: Zhang Wei
+    name: tensorflow-serving
+    sources:
+    - https://github.com/tensorflow/serving
+    urls:
+    - http://127.0.0.1:8879/tensorflow-serving-1.0.0.tgz
+    version: 1.0.0
+  tomcat:
+  - created: 2018-01-24T09:03:18.150119693Z
+    description: Chart for Apache Tomcat
+    digest: 3ca67b97bea0f94f69fb013a56a1cf32825176c26457adefb38145251c4b5162
+    engine: gotpl
+    home: http://tomcat.apache.org
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-110x117.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/bitnami-docker-tomcat
+    urls:
+    - http://127.0.0.1:8879/tomcat-0.4.16.tgz
+    version: 0.4.16
+  - created: 2018-01-24T09:03:18.14917681Z
+    description: Chart for Apache Tomcat
+    digest: afc32d62c9bac04b2cd5052cfdfd271765c3870ae47467b698dc11ded8efa789
+    engine: gotpl
+    home: http://tomcat.apache.org
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-110x117.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/bitnami-docker-tomcat
+    urls:
+    - http://127.0.0.1:8879/tomcat-0.4.15.tgz
+    version: 0.4.15
+  vote:
+  - apiVersion: v1
+    created: 2018-01-24T09:03:18.15099983Z
+    description: A vote app for Kubernetes
+    digest: b622f09003de044f9ab56ca5dbbe9294bebdcb5482250955fcb94bef1f02fa43
+    name: vote
+    urls:
+    - http://127.0.0.1:8879/vote-0.5.0.tgz
+    version: 0.5.0
+generated: 2018-01-24T09:03:18.103409008Z
